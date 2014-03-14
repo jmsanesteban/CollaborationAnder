@@ -13,5 +13,10 @@ namespace JallouWorld
         {
 
         }
+
+        protected void btnMessage_Click(object sender, EventArgs e)
+        {
+            lblResult.Text = "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.";
+        }
     }
 }
